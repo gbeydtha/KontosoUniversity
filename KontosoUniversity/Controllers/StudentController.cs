@@ -21,7 +21,7 @@ namespace KontosoUniversity.Controllers
             return View(db.Students.ToList());
         }
 
-        // GET: Students/Details/5
+        // GET: Students/Details/10
         public ActionResult Details(int? id)
         {
             if (id == null)
